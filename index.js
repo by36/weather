@@ -96,7 +96,7 @@ app.post("/", function(req, res) {
 app.listen(3000, function () {
   console.log("Server is running on port 3000.");
 =======
-//Code will run on 3000 or any available open port
+//Code will run on 3000 or any available open port 
 app.listen(process.env.PORT || 3000, function() {
     console.log("Server is running on port");
 >>>>>>> origin/master
